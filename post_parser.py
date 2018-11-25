@@ -58,13 +58,14 @@ reddit = praw.Reddit(client_id=credentials['client_id'],
                      username=credentials['username'],
                      password=credentials['password'])
 
-# # selecting which post to scrape based on its ID
-# which_post = raw_input("\nWhich post would you like to get data from?\nInsert post ID: ")
+# sub = reddit.submission(url='https://www.reddit.com/r/politics/comments/969lx1/what_happened_in_charlottesville_was_terrorism/?sort=controversial')
+# sub = reddit.submission(id='969lx1')
 
-# # sub = reddit.submission(url='https://www.reddit.com/r/politics/comments/969lx1/what_happened_in_charlottesville_was_terrorism/?sort=controversial')
-# sub = reddit.submission(id=which_post)
+# selecting which post to scrape based on its ID
+which_post = raw_input("\nWhich post would you like to get data from?\nInsert post ID: ")
+sub = reddit.submission(id=which_post)
 
-sub = reddit.submission(id='969lx1')
+
 sub.comment_sort = 'controversial'
 sub.comments.replace_more(limit=None, threshold=0)
 
@@ -73,7 +74,8 @@ replacements = [
     (r'\n', ' '),
     (r'^\n', ''),
     (r'\s{2,}', ' '),
-    (r'#+', '')
+    (r'#+', ''),
+    (r'^>', '')
 ]
 for i, comment in enumerate(sub.comments):
     # if i is 20:
@@ -88,7 +90,7 @@ for i, comment in enumerate(sub.comments):
     valid_meta = ['ups', 'downs', 'controversiality', 'id', 'created_local', 'created_utc']
     comment_meta = get_meta(comment, valid_meta)
 
-    comment_id_no = str(i)
+    comment_id_no = str(i+1)
     if comment.score < 0:
         input_data.append({
             "body": body,
@@ -114,7 +116,7 @@ for i, comment in enumerate(sub.comments):
         score = reply.score
 
         reply_meta = get_meta(reply, valid_meta)
-        comment_id_no = str(str(i) + "." + str(t+1))
+        comment_id_no = str(str(i+1) + "." + str(t+1))
 
         if score < 0:
             input_data.append({
