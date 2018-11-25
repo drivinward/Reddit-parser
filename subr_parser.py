@@ -1,13 +1,22 @@
-import re
-import json, csv
+import sys, re, json
 import praw
 import datetime as dt
 
-reddit = praw.Reddit(client_id='WSLpAk1pojs9bg',
-                     client_secret='5qay_6Hr3RjA041rfHbYH_5Zij8',
-                     user_agent='ward_scraper',
-                     username='drivinward',
-                     password='M26UtyvHgkAg7J4HqjfxG83X')
+credentials_file = sys.argv[1]
+with open(credentials_file, 'r') as cf:
+    credentials = json.load(cf)[0]
+
+    start_string = "Found following credentials in " + str(credentials_file) + " :"
+    print "=" * len(start_string)
+    print start_string
+    print "-" * len(start_string)
+    print json.dumps(credentials, sort_keys=True, indent=2, encoding='utf-8')
+
+reddit = praw.Reddit(client_id=credentials['client_id'],
+                     client_secret=credentials['client_secret'],
+                     user_agent=credentials['user_agent'],
+                     username=credentials['username'],
+                     password=credentials['password'])
 
 sub = reddit.subreddit('the_donald')
 tops = sub.top(limit=500)
