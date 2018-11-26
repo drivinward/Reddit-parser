@@ -1,0 +1,58 @@
+[
+  {
+    "body": "Uh............. In my personal opinion.... the president is a perfect example. Take it how you want. ", 
+    "id_order": "1", 
+    "score": 0, 
+    "score_isnegative": false, 
+    "meta": {
+      "downs": 0, 
+      "created_utc": "2018-11-16 18:00:39", 
+      "created_local": "2018-11-17 02:00:39", 
+      "controversiality": 0, 
+      "id": "e9topsc", 
+      "ups": 0
+    }
+  }, 
+  {
+    "body": "That it is true. ", 
+    "id_order": "2", 
+    "score": 1, 
+    "score_isnegative": false, 
+    "meta": {
+      "downs": 0, 
+      "created_utc": "2018-11-16 17:44:47", 
+      "created_local": "2018-11-17 01:44:47", 
+      "controversiality": 0, 
+      "id": "e9tniv0", 
+      "ups": 1
+    }
+  }, 
+  {
+    "body": "That it's a sociopath loser's excuse for violence.", 
+    "id_order": "3", 
+    "score": 3, 
+    "score_isnegative": false, 
+    "meta": {
+      "downs": 0, 
+      "created_utc": "2018-11-16 17:47:22", 
+      "created_local": "2018-11-17 01:47:22", 
+      "controversiality": 0, 
+      "id": "e9tnpwf", 
+      "ups": 3
+    }
+  }, 
+  {
+    "body": "It is a very complicated issue in which neither a yes or a no is capable of giving a truly correct answer. There is a lot of grey areas in this.", 
+    "id_order": "4", 
+    "score": 2, 
+    "score_isnegative": false, 
+    "meta": {
+      "downs": 0, 
+      "created_utc": "2018-11-16 17:48:08", 
+      "created_local": "2018-11-17 01:48:08", 
+      "controversiality": 0, 
+      "id": "e9tns0q", 
+      "ups": 2
+    }
+  }
+]

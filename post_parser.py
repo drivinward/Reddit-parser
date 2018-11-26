@@ -65,8 +65,11 @@ reddit = praw.Reddit(client_id=credentials['client_id'],
 which_post = raw_input("\nWhich post would you like to get data from?\nInsert post ID: ")
 sub = reddit.submission(id=which_post)
 
+if len(sys.argv) is 4 and sys.argv[3]:
+    sub.comment_sort = str(sys.argv[3])
+else:
+    sub.comment_sort = 'top'
 
-sub.comment_sort = 'controversial'
 sub.comments.replace_more(limit=None, threshold=0)
 
 input_data = []
@@ -75,12 +78,10 @@ replacements = [
     (r'^\n', ''),
     (r'\s{2,}', ' '),
     (r'#+', ''),
-    (r'^>', '')
+    (r'^>', ''),
+    ('\"', '"')
 ]
 for i, comment in enumerate(sub.comments):
-    # if i is 20:
-    #     print vars(comment).items()
-
     body = comment.body
     for old, new in replacements:
         body = re.sub(old, new, body)
@@ -134,17 +135,38 @@ for i, comment in enumerate(sub.comments):
                 "id_order": comment_id_no,
                 "meta": reply_meta
             })
-        # print input_data
 
 ## checking that everything's right before writing data to file
 # print input_data
 
+# post metadata
+post_meta = {}
+for var_key, var_value in vars(sub).items():
+    if type(var_value) is int or type(var_value) is float or type(var_value) is bool:
+        print var_key, "is a", type(var_value)
+        post_meta[var_key] = var_value
+    else:
+        print var_key, "is a", type(var_value)
+        post_meta[var_key] = str(var_value)
+    
+
 # formatting data to JSON before output
 output_data = json.dumps(input_data, sort_keys=False, indent=2, ensure_ascii=False).encode('utf-8')
+post_meta = json.dumps(post_meta, sort_keys=False, indent=2, ensure_ascii=False).encode('utf-8')
 output_file = sys.argv[2]
 
 # writing data to JSON file
 with open(output_file, 'w') as fo:
+
+    # for var_key, var_value in vars(sub).items():
+    #     fo.write("# ")
+    #     fo.write(str(var_key))
+    #     fo.write(": ")
+    #     fo.write(str(var_value))
+    #     fo.write("\n")
+
+    fo.write(post_meta)
+    fo.write(",\n")
     fo.write(output_data)
 
 end_string = "Done writing " + str(len(input_data)) + " entries in " + output_file + "."

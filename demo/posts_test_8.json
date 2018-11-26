@@ -1,0 +1,416 @@
+{
+  "approved_at_utc": "None", 
+  "subreddit": "AskReddit", 
+  "selftext": "", 
+  "author_fullname": "t2_11pnhi", 
+  "link_flair_text": "Serious Replies Only", 
+  "mod_reason_title": "None", 
+  "gilded": 0, 
+  "clicked": false, 
+  "title": "[Serious] How do you think we, as a society, should tackle freedom of speech and the internet? It seems like there needs to be protections against hate speech, groups that encourage violence, etc., but how do you do more to prevent it and stop censorship from going too far?", 
+  "link_flair_richtext": "[{u'e': u'text', u't': u'Serious Replies Only'}]", 
+  "subreddit_name_prefixed": "r/AskReddit", 
+  "hidden": false, 
+  "pwls": 6, 
+  "link_flair_css_class": "None", 
+  "downs": 0, 
+  "_reddit": "<praw.reddit.Reddit object at 0x10ca719d0>", 
+  "thumbnail_height": "None", 
+  "parent_whitelist_status": "all_ads", 
+  "name": "t3_9l8mdj", 
+  "hide_score": false, 
+  "quarantine": false, 
+  "link_flair_text_color": "light", 
+  "upvote_ratio": 0.6, 
+  "author_flair_background_color": "None", 
+  "ups": 2, 
+  "contest_mode": false, 
+  "media_embed": "{}", 
+  "thumbnail_width": "None", 
+  "author_flair_template_id": "None", 
+  "is_original_content": false, 
+  "_flair": "None", 
+  "user_reports": "[]", 
+  "secure_media": "None", 
+  "is_reddit_media_domain": false, 
+  "is_meta": false, 
+  "category": "None", 
+  "secure_media_embed": "{}", 
+  "_fetched": true, 
+  "saved": false, 
+  "can_mod_post": false, 
+  "score": 2, 
+  "approved_by": "None", 
+  "thumbnail": "self", 
+  "edited": false, 
+  "author_flair_css_class": "None", 
+  "author_flair_richtext": "[]", 
+  "gildings": "{u'gid_1': 0, u'gid_2': 0, u'gid_3': 0}", 
+  "content_categories": "None", 
+  "is_self": true, 
+  "_comments": "<praw.models.comment_forest.CommentForest object at 0x10c034710>", 
+  "_mod": "None", 
+  "subreddit_type": "public", 
+  "created": 1538655228.0, 
+  "link_flair_type": "richtext", 
+  "wls": 6, 
+  "mod_note": "None", 
+  "banned_by": "None", 
+  "author_flair_type": "text", 
+  "domain": "self.AskReddit", 
+  "selftext_html": "None", 
+  "likes": "None", 
+  "suggested_sort": "None", 
+  "banned_at_utc": "None", 
+  "view_count": "None", 
+  "archived": false, 
+  "no_follow": false, 
+  "is_crosspostable": true, 
+  "pinned": false, 
+  "_info_params": "{}", 
+  "over_18": false, 
+  "media": "None", 
+  "media_only": false, 
+  "link_flair_template_id": "54ea6bda-dcf0-11e2-9548-12313b0c8c59", 
+  "can_gild": true, 
+  "spoiler": false, 
+  "locked": false, 
+  "author_flair_text": "None", 
+  "visited": false, 
+  "num_reports": "None", 
+  "distinguished": "None", 
+  "comment_sort": "controversial", 
+  "subreddit_id": "t5_2qh1i", 
+  "_comments_by_id": "{u't1_e74uw2y': Comment(id='e74uw2y'), u't1_e74uxs9': Comment(id='e74uxs9'), u't1_e74vlsk': Comment(id='e74vlsk'), u't1_e74w1ze': Comment(id='e74w1ze'), u't1_e74vd6g': Comment(id='e74vd6g'), u't1_e74v1e8': Comment(id='e74v1e8'), u't1_e74ztc6': Comment(id='e74ztc6'), u't1_e74uzwa': Comment(id='e74uzwa'), u't1_e74uv9l': Comment(id='e74uv9l'), u't1_e74vc8z': Comment(id='e74vc8z'), u't1_e74v852': Comment(id='e74v852'), u't1_e74wdz9': Comment(id='e74wdz9'), u't1_e74utct': Comment(id='e74utct'), u't1_e74x3zj': Comment(id='e74x3zj'), u't1_e74uv00': Comment(id='e74uv00'), u't1_e74vhom': Comment(id='e74vhom'), u't1_e74w4so': Comment(id='e74w4so'), u't1_e753mac': Comment(id='e753mac'), u't1_e74v5pr': Comment(id='e74v5pr'), u't1_e750f1v': Comment(id='e750f1v'), u't1_e750wyb': Comment(id='e750wyb'), u't1_e74vi3f': Comment(id='e74vi3f')}", 
+  "mod_reason_by": "None", 
+  "removal_reason": "None", 
+  "link_flair_background_color": "#99c160", 
+  "id": "9l8mdj", 
+  "is_robot_indexable": true, 
+  "report_reasons": "None", 
+  "author": "motorboatman", 
+  "num_crossposts": 0, 
+  "num_comments": 20, 
+  "send_replies": true, 
+  "comment_limit": 2048, 
+  "author_patreon_flair": false, 
+  "author_flair_text_color": "None", 
+  "permalink": "/r/AskReddit/comments/9l8mdj/serious_how_do_you_think_we_as_a_society_should/", 
+  "whitelist_status": "all_ads", 
+  "stickied": false, 
+  "url": "https://www.reddit.com/r/AskReddit/comments/9l8mdj/serious_how_do_you_think_we_as_a_society_should/", 
+  "subreddit_subscribers": 20722945, 
+  "created_utc": 1538626428.0, 
+  "mod_reports": "[]", 
+  "is_video": false
+},
+[
+  {
+    "body": "**Attention! [Serious] Tag Notice** * Jokes, puns, and off-topic comments are not permitted in **any** comment, parent or child. * Parent comments that aren't from the target group will be removed, along with their child replies. * Report comments that violate these rules. Posts that have few relevant answers within the first hour, and posts that are not appropriate for the [Serious] tag will be removed. Consider doing an AMA request instead. Thanks for your cooperation and enjoy the discussion! *I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/AskReddit) if you have any questions or concerns.*", 
+    "id_order": "1", 
+    "score": 1, 
+    "score_isnegative": false, 
+    "meta": {
+      "downs": 0, 
+      "created_utc": "2018-10-04 06:13:48", 
+      "created_local": "2018-10-04 14:13:48", 
+      "controversiality": 0, 
+      "id": "e74utct", 
+      "ups": 1
+    }
+  }, 
+  {
+    "body": "[cancellato]", 
+    "id_order": "2", 
+    "score": 3, 
+    "score_isnegative": false, 
+    "meta": {
+      "downs": 0, 
+      "created_utc": "2018-10-04 06:18:23", 
+      "created_local": "2018-10-04 14:18:23", 
+      "controversiality": 0, 
+      "id": "e74v1e8", 
+      "ups": 3
+    }
+  }, 
+  {
+    "body": "I actually thought about this too.. part of the problem is the lack of accountability. At the same time, usernames should be able to be traced back to the person, and that doesn't seem to detract at all, so how could you make it so that people felt like it was the same consequences as talking in person? ", 
+    "id_order": "2.1", 
+    "score": 0, 
+    "score_isnegative": false, 
+    "meta": {
+      "downs": 0, 
+      "created_utc": "2018-10-04 06:28:00", 
+      "created_local": "2018-10-04 14:28:00", 
+      "controversiality": 0, 
+      "id": "e74vhom", 
+      "ups": 0
+    }
+  }, 
+  {
+    "body": "If someone makes threats, Regulate. Everything else is a go, It’s freedom of speech.", 
+    "id_order": "3", 
+    "score": 9, 
+    "score_isnegative": false, 
+    "meta": {
+      "downs": 0, 
+      "created_utc": "2018-10-04 06:14:43", 
+      "created_local": "2018-10-04 14:14:43", 
+      "controversiality": 0, 
+      "id": "e74uv00", 
+      "ups": 9
+    }
+  }, 
+  {
+    "body": "What about hate speech? How does that play into it? It seems like allowing certain things can almost promote it, or at least let people know there will be no consequences for saying statements that can be \"threatening\" without making a direct threat. ", 
+    "id_order": "3.1", 
+    "score": 0, 
+    "score_isnegative": false, 
+    "meta": {
+      "downs": 0, 
+      "created_utc": "2018-10-04 06:21:00", 
+      "created_local": "2018-10-04 14:21:00", 
+      "controversiality": 0, 
+      "id": "e74v5pr", 
+      "ups": 0
+    }
+  }, 
+  {
+    "body": "liberty is more important than sparing others' feelings, imo.", 
+    "id_order": "3.2", 
+    "score": 4, 
+    "score_isnegative": false, 
+    "meta": {
+      "downs": 0, 
+      "created_utc": "2018-10-04 06:22:25", 
+      "created_local": "2018-10-04 14:22:25", 
+      "controversiality": 0, 
+      "id": "e74v852", 
+      "ups": 4
+    }
+  }, 
+  {
+    "body": "Hate speech is free speech.", 
+    "id_order": "3.3", 
+    "score": 2, 
+    "score_isnegative": false, 
+    "meta": {
+      "downs": 0, 
+      "created_utc": "2018-10-04 06:25:21", 
+      "created_local": "2018-10-04 14:25:21", 
+      "controversiality": 0, 
+      "id": "e74vd6g", 
+      "ups": 2
+    }
+  }, 
+  {
+    "body": "Late hate groups talk about hate. Try to sincerely engage with them and change their minds. ", 
+    "id_order": "4", 
+    "score": 6, 
+    "score_isnegative": false, 
+    "meta": {
+      "downs": 0, 
+      "created_utc": "2018-10-04 06:14:52", 
+      "created_local": "2018-10-04 14:14:52", 
+      "controversiality": 0, 
+      "id": "e74uv9l", 
+      "ups": 6
+    }
+  }, 
+  {
+    "body": "I recently had the same idea, but there are so many groups/people that it seems almost implausible. ", 
+    "id_order": "4.1", 
+    "score": 2, 
+    "score_isnegative": false, 
+    "meta": {
+      "downs": 0, 
+      "created_utc": "2018-10-04 06:17:30", 
+      "created_local": "2018-10-04 14:17:30", 
+      "controversiality": 0, 
+      "id": "e74uzwa", 
+      "ups": 2
+    }
+  }, 
+  {
+    "body": "But you have millions of humans on Earth to do it. With that many humans, you can surely reach a vast majority of them.", 
+    "id_order": "4.2", 
+    "score": 3, 
+    "score_isnegative": false, 
+    "meta": {
+      "downs": 0, 
+      "created_utc": "2018-10-04 06:30:29", 
+      "created_local": "2018-10-04 14:30:29", 
+      "controversiality": 0, 
+      "id": "e74vlsk", 
+      "ups": 3
+    }
+  }, 
+  {
+    "body": "True, but that would require everyone actively trying to do so. It's not that I don't have faith in humanity, but most of the people that engage in the behavior or aggression (that we would be trying to stop) believe in their cause to their core, so they are much more active than people trying to engage. It feels like it would be that each time a person reaches one person, they're out getting 5 more. So how would we get people to be active at that same level? And what about the people that genuinely feel that way and have no interest in discussion other than to \"troll\"? How do you reach them? I know some try to ignore those types completely, but it feels like the more ignoring we do, the more those groups are allowed to grow in private. ", 
+    "id_order": "4.3", 
+    "score": 1, 
+    "score_isnegative": false, 
+    "meta": {
+      "downs": 0, 
+      "created_utc": "2018-10-04 06:40:21", 
+      "created_local": "2018-10-04 14:40:21", 
+      "controversiality": 0, 
+      "id": "e74w1ze", 
+      "ups": 1
+    }
+  }, 
+  {
+    "body": "It does not require every human to use the internet to engage these extremists. There are actually over 1 billion internet users globally. 1% of 1 billion is 1 million. If 1 human is capable of convincing 5, as you sure during your example, then you could theoretically eliminate the KKK with just 1,000 humans worldwide. That is 0.00001% of 1 billion. There are more than enough humans for the job of engaging these ideas. And yes, there are humans who are not willing to listen, and that is their right. Just as you have the freedom to speak, others have the right not to hear you. And these groups do not grow because they are ignored, but rather because they are unchallenged. ", 
+    "id_order": "4.4", 
+    "score": 2, 
+    "score_isnegative": false, 
+    "meta": {
+      "downs": 0, 
+      "created_utc": "2018-10-04 07:04:17", 
+      "created_local": "2018-10-04 15:04:17", 
+      "controversiality": 0, 
+      "id": "e74x3zj", 
+      "ups": 2
+    }
+  }, 
+  {
+    "body": "I agree! I guess it’s more about trying to get people to engage, or finding those ones. ", 
+    "id_order": "4.5", 
+    "score": 1, 
+    "score_isnegative": false, 
+    "meta": {
+      "downs": 0, 
+      "created_utc": "2018-10-04 08:33:33", 
+      "created_local": "2018-10-04 16:33:33", 
+      "controversiality": 0, 
+      "id": "e750f1v", 
+      "ups": 1
+    }
+  }, 
+  {
+    "body": "well reddit sure sucks at this concept. at least at the individual sub level(/news especially, /aww sometimes lol, a decent amount of the major ones are run by thought police and nazi's).... they are far to strict. Barring threats of bodily harm(other than \"go die/jump off a cliff\") there should be no censorship what so ever", 
+    "id_order": "5", 
+    "score": 6, 
+    "score_isnegative": false, 
+    "meta": {
+      "downs": 0, 
+      "created_utc": "2018-10-04 06:15:17", 
+      "created_local": "2018-10-04 14:15:17", 
+      "controversiality": 0, 
+      "id": "e74uw2y", 
+      "ups": 6
+    }
+  }, 
+  {
+    "body": "Censorship in any form is bullshit. Unless you're making direct threats or planning acts of violence, say whatever you want.", 
+    "id_order": "6", 
+    "score": 5, 
+    "score_isnegative": false, 
+    "meta": {
+      "downs": 0, 
+      "created_utc": "2018-10-04 06:16:17", 
+      "created_local": "2018-10-04 14:16:17", 
+      "controversiality": 0, 
+      "id": "e74uxs9", 
+      "ups": 5
+    }
+  }, 
+  {
+    "body": "How do you balance \"planning acts of violence\" and general talk about future plans (i.e. One day I could see myself shooting up the school, my wife, etc.)? Or even general statements that are hard to distinguish between plans and desires? ", 
+    "id_order": "6.1", 
+    "score": 1, 
+    "score_isnegative": false, 
+    "meta": {
+      "downs": 0, 
+      "created_utc": "2018-10-04 06:24:49", 
+      "created_local": "2018-10-04 14:24:49", 
+      "controversiality": 0, 
+      "id": "e74vc8z", 
+      "ups": 1
+    }
+  }, 
+  {
+    "body": "With time and research.", 
+    "id_order": "6.2", 
+    "score": 2, 
+    "score_isnegative": false, 
+    "meta": {
+      "downs": 0, 
+      "created_utc": "2018-10-04 06:28:14", 
+      "created_local": "2018-10-04 14:28:14", 
+      "controversiality": 0, 
+      "id": "e74vi3f", 
+      "ups": 2
+    }
+  }, 
+  {
+    "body": "[cancellato]", 
+    "id_order": "7", 
+    "score": 3, 
+    "score_isnegative": false, 
+    "meta": {
+      "downs": 0, 
+      "created_utc": "2018-10-04 06:42:04", 
+      "created_local": "2018-10-04 14:42:04", 
+      "controversiality": 0, 
+      "id": "e74w4so", 
+      "ups": 3
+    }
+  }, 
+  {
+    "body": "I hear what you say about it getting out of hand. That's very real, and why I'm trying to explore it more. It seems too black and white to say that its rather all speech or no speech. You made mention of threats to harm someone, and that is an outlier of it, so would having one (that IMO is socially recognized as not being okay) be that much different? ", 
+    "id_order": "7.1", 
+    "score": 1, 
+    "score_isnegative": false, 
+    "meta": {
+      "downs": 0, 
+      "created_utc": "2018-10-04 06:47:37", 
+      "created_local": "2018-10-04 14:47:37", 
+      "controversiality": 0, 
+      "id": "e74wdz9", 
+      "ups": 1
+    }
+  }, 
+  {
+    "body": "[cancellato]", 
+    "id_order": "7.2", 
+    "score": 1, 
+    "score_isnegative": false, 
+    "meta": {
+      "downs": 0, 
+      "created_utc": "2018-10-04 08:15:38", 
+      "created_local": "2018-10-04 16:15:38", 
+      "controversiality": 0, 
+      "id": "e74ztc6", 
+      "ups": 1
+    }
+  }, 
+  {
+    "body": "Eh, I don’t know. I guess my concern is the reasoning behind the toxicity. Seems like there’s a lot of hurt behind toxic actions, and when people unite on that externalization of hurt emotions then there’s the concern about how staying in toxicity only continues to push people further into it and leads to actual harm. And i feel like that’s a pretty hard thing to predict since most of the time it doesn’t lead to any real harm. I’m not advocating any stance, Im not sure how to address it, but I do think there are a lot options. And yeah, ultimately you’re right. People have the freedom to choose to be toxic or be however they want on the internet. ", 
+    "id_order": "7.3", 
+    "score": 1, 
+    "score_isnegative": false, 
+    "meta": {
+      "downs": 0, 
+      "created_utc": "2018-10-04 08:48:11", 
+      "created_local": "2018-10-04 16:48:11", 
+      "controversiality": 0, 
+      "id": "e750wyb", 
+      "ups": 1
+    }
+  }, 
+  {
+    "body": "I think preventing the spread of fake news is what needs to be done. People use that to circumvent hate speech laws these days. An example is the white supremists in Canada posting fake articles about refugees killing a goat in a fancy hotel room. Its meant to get people worked up, instead of telling people directly to hate it tries to paint an image for ppl to hate. Basically we just need to find a way to sort the fake news and opinions. ", 
+    "id_order": "8", 
+    "score": 2, 
+    "score_isnegative": false, 
+    "meta": {
+      "downs": 0, 
+      "created_utc": "2018-10-04 10:16:36", 
+      "created_local": "2018-10-04 18:16:36", 
+      "controversiality": 0, 
+      "id": "e753mac", 
+      "ups": 2
+    }
+  }
+]
