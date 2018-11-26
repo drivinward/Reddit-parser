@@ -1,6 +1,24 @@
+# ================================================================== #
+#                     script by Edoardo Guido
+#                     https://edoardoguido.com
+#                     edoardo.guido.93@gmail.com
+# ================================================================== #
+#
+## It is recommended to ugprade pip first...
+# pip install --upgrade pip
+# pip3 install --upgrade pip
+#
+## ...before installing PRAW modules
+# pip install praw
+# pip3 install praw
+#
+# ================================================================== ##
+
 import sys, re, json
-import praw
 import datetime as dt
+
+# importing Reddit's API
+import praw
 
 credentials_file = sys.argv[1]
 with open(credentials_file, 'r') as cf:

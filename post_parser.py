@@ -1,3 +1,31 @@
+# ================================================================== #
+#                     script by Edoardo Guido
+#                     https://edoardoguido.com
+#                     edoardo.guido.93@gmail.com
+# ================================================================== #
+#
+## It is recommended to ugprade pip first...
+# pip install --upgrade pip
+# pip3 install --upgrade pip
+#
+## ...before installing PRAW modules
+# pip install praw
+# pip3 install praw
+#
+# ================================================================== #
+#                       HOW TO USE THIS SCRIPT                       #
+# ================================================================== #
+#
+## Two arguments are needed in order to correctly run this script:
+## 1 - credentials file in .json format
+##     (you can fill in 'credentials.json' and then use this one)
+## 2 - output filename (no need to specify extension)
+## OPTIONAL 3 - tells the script how to sort the comments of a post.
+##              can be 'controversial', 'best', 'top', and so on.
+##              If not specified, 'hot' is used.
+#
+# ================================================================== #
+
 import sys, re, json
 import datetime as dt
 
@@ -8,6 +36,8 @@ import praw
 ##            METHODS           ##
 ## ---------------------------- ##
 
+# valid_meta must be a python list of wanted elements
+# to insert as keys in output json file
 def get_meta(self, valid_meta):
     # get current comment's metadata
     comment_meta = {}
@@ -21,7 +51,7 @@ def get_meta(self, valid_meta):
     # returns a dictionary
     return comment_meta
 
-# figure out how to use this
+# TO-DO: figure out how to use this
 def get_comments_depth_n(comments, n, depth=0):
     # First check the end condition: reaching the desired depth
     # Return the comments list, which will be merged with other comment lists
@@ -153,7 +183,7 @@ for var_key, var_value in vars(sub).items():
 # formatting data to JSON before output
 output_data = json.dumps(input_data, sort_keys=False, indent=2, ensure_ascii=False).encode('utf-8')
 post_meta = json.dumps(post_meta, sort_keys=False, indent=2, ensure_ascii=False).encode('utf-8')
-output_file = sys.argv[2]
+output_file = sys.argv[2] + ".json"
 
 # writing data to JSON file
 with open(output_file, 'w') as fo:
