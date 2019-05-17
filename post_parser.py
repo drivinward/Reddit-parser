@@ -1,30 +1,25 @@
-# ================================================================== #
-#                     script by Edoardo Guido
-#                     https://edoardoguido.com
-#                     edoardo.guido.93@gmail.com
-# ================================================================== #
-#
-## It is recommended to ugprade pip first...
-# pip install --upgrade pip
-# pip3 install --upgrade pip
-#
-## ...before installing PRAW modules
-# pip install praw
-# pip3 install praw
-#
-# ================================================================== #
-#                       HOW TO USE THIS SCRIPT                       #
-# ================================================================== #
-#
-## Two arguments are needed in order to correctly run this script:
-## 1 - credentials file in .json format
-##     (you can fill in 'credentials.json' and then use this one)
-## 2 - output filename (no need to specify extension)
-## OPTIONAL 3 - tells the script how to sort the comments of a post.
-##              can be 'controversial', 'best', 'top', and so on.
-##              If not specified, 'hot' is used.
-#
-# ================================================================== #
+'''
+script by Edoardo Guido
+https://edoardoguido.com
+contact@edoardoguido.com
+
+It is recommended to ugprade pip first...
+    pip install --upgrade pip
+    pip3 install --upgrade pip
+
+...before installing PRAW modules
+    pip install praw
+    pip3 install praw
+
+# HOW TO USE THIS SCRIPT
+Two arguments are needed in order to correctly run this script:
+1 - credentials file in .json format
+    (you can fill in 'credentials.json' and then use this one)
+2 - output filename (no need to specify extension)
+3 - (optional) tells the script how to sort the comments of a post. 
+    can be 'controversial', 'best', 'top', and so on. 
+    If not specified, 'hot' is used.
+'''
 
 import sys, re, json
 import datetime as dt

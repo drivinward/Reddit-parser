@@ -1,18 +1,16 @@
-# ================================================================== #
-#                     script by Edoardo Guido
-#                     https://edoardoguido.com
-#                     edoardo.guido.93@gmail.com
-# ================================================================== #
-#
-## It is recommended to ugprade pip first...
-# pip install --upgrade pip
-# pip3 install --upgrade pip
-#
-## ...before installing PRAW modules
-# pip install praw
-# pip3 install praw
-#
-# ================================================================== ##
+'''
+script by Edoardo Guido
+https://edoardoguido.com
+contact@edoardoguido.com
+
+It is recommended to ugprade pip first...
+    pip install --upgrade pip
+    pip3 install --upgrade pip
+
+...before installing PRAW modules
+    pip install praw
+    pip3 install praw
+'''
 
 import sys, re, json
 import datetime as dt
