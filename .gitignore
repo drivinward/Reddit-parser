@@ -7,8 +7,8 @@ credentials_.json
 
 # VSC Workspace file
 .code-workspace
-.vscode/
-/.vscode
+.vscode
 
 # MacOs cache file
 .DS_Store
+*/.DS_Store
