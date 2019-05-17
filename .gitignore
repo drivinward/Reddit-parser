@@ -1,8 +1,13 @@
-# Credentials file
+# demo folder
+demo/
+
+# credentials file
+demo/credentials_.json
 credentials_.json
 
 # VSC Workspace file
 .code-workspace
+.vscode/
 /.vscode
 
 # MacOs cache file
