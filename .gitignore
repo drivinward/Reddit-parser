@@ -1,8 +1,7 @@
 # demo folder
-demo/
+demo
 
 # credentials file
-demo/credentials_.json
 credentials_.json
 
 # VSC Workspace file
